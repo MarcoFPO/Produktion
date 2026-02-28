@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Umgebung
+.env
+*.env.local
+
+# Datenbank
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Jobs (Laufzeit-Daten)
+jobs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
