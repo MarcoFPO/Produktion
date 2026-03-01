@@ -29,8 +29,8 @@ Produktions-Monorepo für Automatisierungs- und Entwicklungs-Services.
 
 | Projekt | Beschreibung | Pfad | GitHub |
 |---------|-------------|------|--------|
-| **Orchestrator** | Zentraler Aufgaben-Orchestrator – nimmt Aufgaben entgegen und delegiert an Experten-Services | `/opt/Projekte/Orchestrator` | – (ausstehend) |
-| **agent-pipeline** | Automatisierter Entwicklungs-Service – generiert SPEC/PLAN und implementiert Code via Claude API | `/opt/Projekte/agent-pipeline` | – (ausstehend) |
+| **Orchestrator** | Zentraler Aufgaben-Orchestrator – nimmt Aufgaben entgegen und delegiert an Experten-Services | `/opt/Projekte/Orchestrator` | [MarcoFPO/Orchestrator](https://github.com/MarcoFPO/Orchestrator) |
+| **agent-pipeline** | Automatisierter Entwicklungs-Service – generiert SPEC/PLAN und implementiert Code via Claude API | `/opt/Projekte/agent-pipeline` | [MarcoFPO/agent-pipeline](https://github.com/MarcoFPO/agent-pipeline) |
 
 ## Infrastruktur
 
@@ -62,7 +62,10 @@ cd /opt/Projekte/Orchestrator
 | **Orchestrator** | Eingangs-Gateway: empfängt Aufgaben über Webhook, Telegram, E-Mail, IoT. Plant Workflows und delegiert Steps an Experten-Services. |
 | **agent-pipeline** | Experten-Service für Softwareentwicklung: empfängt strukturierte Entwicklungsaufgaben vom Orchestrator, generiert Spezifikation + Plan und implementiert Code autonom via Claude API. |
 
-## Offene GitHub-Repositories
+## GitHub-Repositories
 
-- [ ] `MarcoFPO/Orchestrator` anlegen und `/opt/Projekte/Orchestrator` pushen
-- [ ] `MarcoFPO/agent-pipeline` anlegen und `/opt/Projekte/agent-pipeline` pushen
+| Repo | URL |
+|------|-----|
+| Produktion (dieses Repo) | https://github.com/MarcoFPO/Produktion |
+| Orchestrator | https://github.com/MarcoFPO/Orchestrator |
+| agent-pipeline | https://github.com/MarcoFPO/agent-pipeline |
